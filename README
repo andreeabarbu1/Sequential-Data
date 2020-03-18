@@ -1,0 +1,26 @@
+312CC_BARBU_ANDREEA
+Initial, creez functii pentru prelucrarea listelor: initializare, stergere, adaugare,
+eliberarea memoriei, copiere etc
+Task 1:
+	Parcurg lista, calculez media si deviatia ferestrei pentru fiecare nod, incepand cu cel 
+	(k/2 + 1) nod. Daca valoarea nodului nu apartine intervalului [medie - deviatie, medie + deviatie], retin in variabila s din structura listei valoarea 1, ca metoda de verificare.
+	Parcurg din nou lista, iar daca s = 1, sterg nodul respectiv. 
+Task 2:
+	Parcurg lista, initial creez o sublista alcatuita din primele k = 5 noduri ale listei, apoi sterg primul nod si il adaug pe urmatorul din lista, repetand pasii pentru ajung la finalul listei. Copiez sublista in o alta lista. 
+	Pentru taskul 2.1: creez noua lista mediana, timestamp-ul fiecarui nod fiind timestamp-ul nodului central al ferestrei, iar valoarea este valoarea nodului central al sublistei ordonate. 
+	Pentru taskul 2.2: creez lista medie, timestamp ul fiecarui nod fiind timestamp-ul nodului central din fereastra, iar valoarea fiind media aritmetica a valorilor din fereastra.
+Task 3:
+	Parcurg lista, daca diferenta dintre nodul curent si cel anterior apartine intervalului 
+	[0.1,1]s valoarea nodului curent se va inlocui cu valoarea medie dintre nodul curent si cel anterior, in acest mod se inlocuieste si timestamp-ul.
+Task 4:
+	Creez functii pentru fiecare formula din enunt, pentru calcularea C, W si valoarea propriu-zisa.
+	Parcurg lista, daca diferenta dintre nodul curent si cel urmator e mai mare de 1000, voi crea sublistele left si right, apoi pana diferenta dintre timestamp-ul ultimului nod introdus si timestamp-ul nodului urmator e mai mica decat 200, inserez cate un nod cu valorile corespunzatoare: timestampul nodului anterior + 2 si valoarea calculata prin formula data in enunt.
+Bonus:
+	Ordonez lista, apoi retin cea mai mic valoare ca margine inferioara, marginea superioara va fi cea mai mare valoare + intervalul dat in enunt.
+	Parcurg lista pana la final, daca valoarea curenta apartine intervalului modific modific numarul de elemente din intervalul respectiv si sterg nodul curent, trec la urmatorul nod. Daca valoarea nodului nu apartine intervalului curent, modific marginile acestuia. La fiecare pas, daca numarul de elemente din intervalul curent este diferit de zero, afisez intervalul si nr nodurilor.
+In main: 
+	Citesc si initalizez lista, apoi pentru fiecare argument primit, voi rezolva cerinta corespunzatoare. In final, afisez numarul de elemente din lista si lista modificata.
+
+
+
+
